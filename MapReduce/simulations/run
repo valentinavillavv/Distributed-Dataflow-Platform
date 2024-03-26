@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/mapreduce -n .:../src $*
+# for shared lib, use: opp_run -l ../src/mapreduce -n .:../src $*

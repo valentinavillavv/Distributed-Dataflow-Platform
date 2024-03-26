@@ -1,0 +1,269 @@
+version 3
+run General-2-20230514-11:53:11-19132
+attr configname General
+attr datetime 20230514-11:53:11
+attr datetimef 20230514-115311
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $N=4
+attr iterationvarsd N=4
+attr iterationvarsf N=4-
+attr measurement $N=4
+attr network MapReduce
+attr processid 19132
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 2
+attr seedset 2
+itervar N 4
+config debug-on-errors true
+config network MapReduce
+config *.n_workers 4
+
+scalar MapReduce.coordinator END 217.2
+scalar MapReduce.coordinator TOT-FAILURES 0
+scalar MapReduce.coordinator TOT-MESSAGES 469
+par MapReduce.coordinator.out_mem.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.coordinator.out_mem.channel disabled false
+attr mutable ""
+par MapReduce.coordinator.out_mem.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.coordinator.out_mem.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.coordinator.out_mem.channel ber 0
+attr mutable ""
+par MapReduce.coordinator.out_mem.channel per 0
+attr mutable ""
+par MapReduce.datastore.out_coord.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.datastore.out_coord.channel disabled false
+attr mutable ""
+par MapReduce.datastore.out_coord.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.datastore.out_coord.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.datastore.out_coord.channel ber 0
+attr mutable ""
+par MapReduce.datastore.out_coord.channel per 0
+attr mutable ""
+par MapReduce.coordinator.out[0].channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.coordinator.out[0].channel disabled false
+attr mutable ""
+par MapReduce.coordinator.out[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.coordinator.out[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.coordinator.out[0].channel ber 0
+attr mutable ""
+par MapReduce.coordinator.out[0].channel per 0
+attr mutable ""
+par MapReduce.datastore.out[0].channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.datastore.out[0].channel disabled false
+attr mutable ""
+par MapReduce.datastore.out[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.datastore.out[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.datastore.out[0].channel ber 0
+attr mutable ""
+par MapReduce.datastore.out[0].channel per 0
+attr mutable ""
+par MapReduce.workers[0].out.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.workers[0].out.channel disabled false
+attr mutable ""
+par MapReduce.workers[0].out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.workers[0].out.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.workers[0].out.channel ber 0
+attr mutable ""
+par MapReduce.workers[0].out.channel per 0
+attr mutable ""
+par MapReduce.workers[0].out_mem.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.workers[0].out_mem.channel disabled false
+attr mutable ""
+par MapReduce.workers[0].out_mem.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.workers[0].out_mem.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.workers[0].out_mem.channel ber 0
+attr mutable ""
+par MapReduce.workers[0].out_mem.channel per 0
+attr mutable ""
+par MapReduce.coordinator.out[1].channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.coordinator.out[1].channel disabled false
+attr mutable ""
+par MapReduce.coordinator.out[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.coordinator.out[1].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.coordinator.out[1].channel ber 0
+attr mutable ""
+par MapReduce.coordinator.out[1].channel per 0
+attr mutable ""
+par MapReduce.datastore.out[1].channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.datastore.out[1].channel disabled false
+attr mutable ""
+par MapReduce.datastore.out[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.datastore.out[1].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.datastore.out[1].channel ber 0
+attr mutable ""
+par MapReduce.datastore.out[1].channel per 0
+attr mutable ""
+par MapReduce.workers[1].out.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.workers[1].out.channel disabled false
+attr mutable ""
+par MapReduce.workers[1].out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.workers[1].out.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.workers[1].out.channel ber 0
+attr mutable ""
+par MapReduce.workers[1].out.channel per 0
+attr mutable ""
+par MapReduce.workers[1].out_mem.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.workers[1].out_mem.channel disabled false
+attr mutable ""
+par MapReduce.workers[1].out_mem.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.workers[1].out_mem.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.workers[1].out_mem.channel ber 0
+attr mutable ""
+par MapReduce.workers[1].out_mem.channel per 0
+attr mutable ""
+par MapReduce.coordinator.out[2].channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.coordinator.out[2].channel disabled false
+attr mutable ""
+par MapReduce.coordinator.out[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.coordinator.out[2].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.coordinator.out[2].channel ber 0
+attr mutable ""
+par MapReduce.coordinator.out[2].channel per 0
+attr mutable ""
+par MapReduce.datastore.out[2].channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.datastore.out[2].channel disabled false
+attr mutable ""
+par MapReduce.datastore.out[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.datastore.out[2].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.datastore.out[2].channel ber 0
+attr mutable ""
+par MapReduce.datastore.out[2].channel per 0
+attr mutable ""
+par MapReduce.workers[2].out.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.workers[2].out.channel disabled false
+attr mutable ""
+par MapReduce.workers[2].out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.workers[2].out.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.workers[2].out.channel ber 0
+attr mutable ""
+par MapReduce.workers[2].out.channel per 0
+attr mutable ""
+par MapReduce.workers[2].out_mem.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.workers[2].out_mem.channel disabled false
+attr mutable ""
+par MapReduce.workers[2].out_mem.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.workers[2].out_mem.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.workers[2].out_mem.channel ber 0
+attr mutable ""
+par MapReduce.workers[2].out_mem.channel per 0
+attr mutable ""
+par MapReduce.coordinator.out[3].channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.coordinator.out[3].channel disabled false
+attr mutable ""
+par MapReduce.coordinator.out[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.coordinator.out[3].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.coordinator.out[3].channel ber 0
+attr mutable ""
+par MapReduce.coordinator.out[3].channel per 0
+attr mutable ""
+par MapReduce.datastore.out[3].channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.datastore.out[3].channel disabled false
+attr mutable ""
+par MapReduce.datastore.out[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.datastore.out[3].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.datastore.out[3].channel ber 0
+attr mutable ""
+par MapReduce.datastore.out[3].channel per 0
+attr mutable ""
+par MapReduce.workers[3].out.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.workers[3].out.channel disabled false
+attr mutable ""
+par MapReduce.workers[3].out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.workers[3].out.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.workers[3].out.channel ber 0
+attr mutable ""
+par MapReduce.workers[3].out.channel per 0
+attr mutable ""
+par MapReduce.workers[3].out_mem.channel typename "\"mapreduce.MessageChannels\""
+par MapReduce.workers[3].out_mem.channel disabled false
+attr mutable ""
+par MapReduce.workers[3].out_mem.channel delay 0.1s
+attr mutable ""
+attr unit s
+par MapReduce.workers[3].out_mem.channel datarate 0bps
+attr mutable ""
+attr unit bps
+par MapReduce.workers[3].out_mem.channel ber 0
+attr mutable ""
+par MapReduce.workers[3].out_mem.channel per 0
+attr mutable ""
+par MapReduce.workers[0] typename "\"mapreduce.Worker\""
+par MapReduce.workers[1] typename "\"mapreduce.Worker\""
+par MapReduce.workers[2] typename "\"mapreduce.Worker\""
+par MapReduce.workers[3] typename "\"mapreduce.Worker\""
+par MapReduce.coordinator typename "\"mapreduce.Coordinator\""
+par MapReduce.datastore typename "\"mapreduce.DataStorage\""
+par MapReduce typename "\"mapreduce.MapReduce\""
+par MapReduce n_workers 4
+

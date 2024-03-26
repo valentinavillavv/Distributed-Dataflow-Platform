@@ -1,0 +1,4 @@
+{
+	"partitions": 9,
+	"instructions": ["map(ADD(5))","change(MUL(2))","map(SUB(3))","reduce()"]
+}
